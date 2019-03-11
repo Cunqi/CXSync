@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CDCDF2522346D7D00DBE466 /* CXSyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCDF2422346D7D00DBE466 /* CXSyncManager.swift */; };
 		C4A598B72233239E00513195 /* CXSync.h in Headers */ = {isa = PBXBuildFile; fileRef = C4A598B52233239E00513195 /* CXSync.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4A598BF223323D500513195 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A598BE223323D500513195 /* CloudKit.framework */; };
 		C4A598C1223326C300513195 /* CXSyncable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A598C0223326C300513195 /* CXSyncable.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CDCDF2422346D7D00DBE466 /* CXSyncManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CXSyncManager.swift; sourceTree = "<group>"; };
 		C4A598B22233239E00513195 /* CXSync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CXSync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A598B52233239E00513195 /* CXSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXSync.h; sourceTree = "<group>"; };
 		C4A598B62233239E00513195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				C4A598C0223326C300513195 /* CXSyncable.swift */,
 				C4A598C222332B5E00513195 /* CXSyncParser.swift */,
 				C4A598C422333B6F00513195 /* CXLog.swift */,
+				3CDCDF2422346D7D00DBE466 /* CXSyncManager.swift */,
 			);
 			path = CXSync;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4A598C522333B6F00513195 /* CXLog.swift in Sources */,
+				3CDCDF2522346D7D00DBE466 /* CXSyncManager.swift in Sources */,
 				C4A598C322332B5E00513195 /* CXSyncParser.swift in Sources */,
 				C4A598C1223326C300513195 /* CXSyncable.swift in Sources */,
 			);

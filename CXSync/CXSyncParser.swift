@@ -19,6 +19,7 @@ class CXStandardSyncParser: CXSyncParser {
         let mirror = Mirror(reflecting: instance)
         for property in mirror.children {
             guard let key = property.label else {
+                CXLog.W("Find NULL Key with Value: \(property.value)")
                 continue
             }
 
